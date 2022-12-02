@@ -22,7 +22,6 @@ public class Dragon {
     }
     public String attack(){
         int damage = strength*level;
-        strength=strength+1;
         storedDamage = storedDamage+damage;
         if (storedDamage>50){
             storedDamage=storedDamage-50;
